@@ -1,14 +1,13 @@
-package hello.hello_spring.controller;
+package hello.hellospring.controller;
 
-import hello.hello_spring.domain.Member;
-import hello.hello_spring.service.MemberService;
+import hello.hellospring.domain.Member;
+import hello.hellospring.service.MemberService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import java.awt.*;
 import java.util.List;
 
 @Controller
